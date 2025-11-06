@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton College – Student Admission Portal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img class="college-logo" src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="Newton College Building" width="120" height="120">
+        <h1>Newton College – Student Admission Portal</h1>
+        <h2>Welcome to the Online Admission Form</h2>
+        <p class="intro">
+            Please fill in your details accurately to apply for admission to your preferred course.
+        </p>
+        <hr>
+        <form>
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact Number</label>
+                <input type="number" id="contact" name="contact" required>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="course">Select Course</label>
+                <select id="course" name="course" required>
+                    <option value="">-- Select --</option>
+                    <option value="bsc">B.Sc Computer Science</option>
+                    <option value="bba">BBA</option>
+                    <option value="ba">BA English</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="photo">Upload Photo</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+            </div>
+            <button class="submit-btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p class="footer-text">© 2025 Newton College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
