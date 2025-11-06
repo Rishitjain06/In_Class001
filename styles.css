@@ -149,3 +149,6 @@ footer {
         max-width: 98vw;
     }
 }
+body, html {
+    font-family: 'Inter', Arial, Verdana, sans-serif !important;
+}

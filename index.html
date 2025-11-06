@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newton College – Student Admission Portal</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <img class="college-logo" src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="Newton College Building" width="120" height="120">
+        <img class="college-logo" src="data:image/jpeg;base64,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" alt="Newton College Building" width="120" height="120">
         <h1>Newton College – Student Admission Portal</h1>
         <h2>Welcome to the Online Admission Form</h2>
         <p class="intro">
@@ -39,10 +41,10 @@
             <div class="form-group">
                 <label for="course">Select Course</label>
                 <select id="course" name="course" required>
-                    <option value="">-- Select --</option>
-                    <option value="bsc">B.Sc Computer Science</option>
-                    <option value="bba">BBA</option>
-                    <option value="ba">BA English</option>
+                    <option value="">-- Select Specialisation --</option>
+                    <option value="robotics">B.Tech Computer Science – Robotics</option>
+                    <option value="ai">B.Tech Computer Science – Artificial Intelligence</option>
+                    <option value="entrepreneurship">B.Tech Computer Science – Entrepreneurship</option>
                 </select>
             </div>
             <div class="form-group">
